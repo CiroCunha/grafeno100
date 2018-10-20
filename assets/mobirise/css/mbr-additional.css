@@ -1836,41 +1836,62 @@ body {
 .cid-r6X5zcvvy6 .mbr-text {
   color: #767676;
 }
-.cid-r6XfOZi1oE {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-image: url("../../../assets/images/06.jpg");
+.cid-r72FTwTj5O {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(45deg, #177396, #ca2955);
 }
-.cid-r6XfOZi1oE h4 {
-  text-align: left;
-  font-weight: 500;
+.cid-r72FTwTj5O .list-group-item {
+  padding: .75rem 3.25rem;
 }
-.cid-r6XfOZi1oE p {
+.cid-r72FTwTj5O .plan {
+  word-break: break-word;
+  position: relative;
+  max-width: 300px;
+  padding-right: 0;
+  padding-left: 0;
   color: #767676;
-  text-align: left;
-  margin-bottom: 0;
 }
-.cid-r6XfOZi1oE .card-img {
-  text-align: left;
-  background-color: #ffffff;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 3rem 2.5rem 0 2.5rem;
+.cid-r72FTwTj5O .plan .list-group-item {
+  position: relative;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 0;
 }
-.cid-r6XfOZi1oE .card-img span {
-  font-size: 72px;
-  color: #707070;
+.cid-r72FTwTj5O .plan .list-group-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  height: 2px;
+  content: "";
+  background-color: #eaeaea;
 }
-.cid-r6XfOZi1oE .card-box {
-  padding: 0rem 2.5rem 3rem 2.5rem;
-  background-color: #ffffff;
+.cid-r72FTwTj5O .plan .list-group-item:last-child::after {
+  display: none;
 }
-.cid-r6XfOZi1oE P {
-  color: #c4bc3b;
-  text-align: center;
+.cid-r72FTwTj5O .plan-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-.cid-r6XfOZi1oE .card-title,
-.cid-r6XfOZi1oE .card-img DIV {
+.cid-r72FTwTj5O .plan-header,
+.cid-r72FTwTj5O .plan-body {
+  background-color: #fff;
+}
+.cid-r72FTwTj5O .price-figure {
+  font-weight: 700;
+  color: #232323;
+}
+.cid-r72FTwTj5O .price-value {
+  font-weight: 700;
+  vertical-align: top;
+}
+@media (max-width: 550px) {
+  .cid-r72FTwTj5O .price-figure {
+    font-size: 4.25rem;
+  }
+}
+.cid-r72FTwTj5O LI {
   color: #7f1933;
 }
 .cid-r6X8Hp5Bzd .navbar {
